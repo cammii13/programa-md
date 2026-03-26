@@ -49,3 +49,12 @@ La aplicación utiliza SQLite como base de datos, que se crea automáticamente e
 ## Notas
 - La base de datos es "code-first": Las tablas se crean automáticamente al ejecutar la aplicación por primera vez.
 - Los datos se mantienen entre sesiones gracias a SQLite.
+
+## 🤖 Registro de Proceso (Uso de IA)
+
+Para el desarrollo de **cammseb**, se utilizaron herramientas de Inteligencia Artificial (Gemini / GitHub Copilot) como asistentes de programación siguiendo estos puntos:
+
+* **Generación de Interfaz:** La IA asistió en la creación de los estilos CSS personalizados y la estructura de `tabs` de NiceGUI para lograr una estética profesional de spa.
+* **Lógica de Negocio:** Se utilizó IA para validar las fórmulas matemáticas de la "Calculadora de Costos" y asegurar que el margen de ganancia se aplique correctamente sobre el costo total.
+* **Persistencia de Datos:** La configuración de los modelos de `SQLAlchemy` y la conexión con SQLite fueron optimizadas mediante sugerencias de código de la IA para garantizar la integridad de los datos.
+* **Depuración:** Uso de agentes para identificar y corregir errores de tipo (ValueError) en la entrada de fechas y números.
